@@ -20,7 +20,7 @@
 			margin-right: 40px;
 		}
 
-		.first-image {
+		.first-img {
 			width: 500px;
 			height: 300px;
 		}
@@ -34,20 +34,13 @@
 			grid-template-columns: repeat(5, 1fr);
 			grid-gap: 15px;
 		}
-		
-		.images img, .images div {
-			width: 400px;
-			height: 300px;
+
+		.images div, .images img {
+			width: 100%;
+			height: auto;
+			background: grey;
 		}
 		
-		.blog {
-			background: linear-gradient(135deg, #eceddc 25%, transparent 25%),
-				linear-gradient(225deg, #eceddc 25%, transparent 25%),
-				linear-gradient(315deg, #eceddc 25%, transparent 25%),
-				linear-gradient(45deg, #eceddc 25%, transparent 25%);
-			background-size: 20px 20px;
-			background-color: #782345;
-		}
 	</style>
 	<link rel="preload" as="image" href="https://images.unsplash.com/photo-1666845523875-a819efe78321?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY2ODI1NDQ2NQ&ixlib=rb-4.0.3&q=80&w=500">
 </head>
@@ -93,7 +86,6 @@
 	</script>
 	<!-- End Google Analytics -->
 	<script src='https://www.google-analytics.com/analytics.js' async></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </body>
 </html>
 
